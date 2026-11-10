@@ -6,18 +6,25 @@ Here you will find two notebooks: (1) A neural Network from scratch just using N
 
 ### 1. Setup Virtual environment
 
-In the root of the proyect create the environment:
+1) In the root of the proyect create the environment:
 ``` bash
 python3 -m venv venv
 ```
 
-Then, activate the environment in your Terminal:
+2) Then, activate the environment in your Terminal:
 ``` bash
 source venv/bin/activate
 ```
+
+In Windows' Powershell:
+
+``` bash
+.\venv\Scripts\Activate.ps1
+```
+
 Make sure your Terminal start with `(venv)`, that means you are inside the virtual environment and you can run the code.
 
-Install the `requirements.txt` for the Kafka example:
+3) Install the `requirements.txt` for the Kafka example:
 ``` bash
 pip install -r neural_networks/requirements.txt
 ```

@@ -15,3 +15,18 @@ root
 │       │   consumer.py
 │       │   producer.py
 ```
+
+
+## Using Powershell
+
+Run this command to allow scripts for your user account:
+
+``` bash
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+This allows you to activate the Python environments.
+
+## Docker in Windows
+
+Just install the Docker Desktop for Windows: [https://docs.docker.com/desktop/setup/install/windows-install/](https://docs.docker.com/desktop/setup/install/windows-install/)

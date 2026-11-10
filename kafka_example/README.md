@@ -6,17 +6,23 @@ Tiny example of how to setup a Kafka Server locally, create some Producers and C
 
 ### 1. Setup Virtual environment
 
-In the root of the proyect create the environment:
+1) In the root of the proyect create the environment:
 ``` bash
 python3 -m venv venv
 ```
 
-Then, activate the environment in your Terminal:
+2) Then, activate the environment in your Terminal:
 ``` bash
 source venv/bin/activate
 ```
 
-Install the `requirements.txt` for the Kafka example:
+In Windows' Powershell:
+
+``` bash
+.\venv\Scripts\Activate.ps1
+```
+
+3) Install the `requirements.txt` for the Kafka example:
 ``` bash
 pip install -r kafka_example/requirements.txt
 ```
